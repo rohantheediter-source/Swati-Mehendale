@@ -68,3 +68,4 @@ The optimized static files will be generated in the `dist/` directory.
 ## 📄 License
 
 Private & Confidential – Built for Swati Mehendale.
+

@@ -1,6 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 
-export const FintechBackground: React.FC = () => {
+interface FintechBackgroundProps {
+  theme?: string;
+}
+
+export const FintechBackground: React.FC<FintechBackgroundProps> = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   useEffect(() => {
